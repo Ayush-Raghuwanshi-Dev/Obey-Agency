@@ -1,0 +1,87 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:sans-serif;
+color: #fff;
+}
+html, body {
+width: 100%;
+height: 100%;
+}
+#loader{
+    width: 100%;
+    height: 100%;
+    background-color: #0b0b0b;
+    position: fixed;
+    z-index: 999;
+    padding: 25vh 10vw;
+}
+.line{
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 3vw;
+}
+.line1-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vw;
+}
+.line1-part1 h5,.line1-part1 h6{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.5vw;
+    font-weight: 100;
+    font-style: italic;
+}
+.line1-part1 h5{
+    width: 5vw;
+    text-align: right;
+}
+.line h1{
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.line h2{
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime {
+    0%{
+        font-style: normal;
+        color: #fff;
+    }
+     25%{
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    50%{
+        font-style: normal;
+        color: #fff;
+    }
+    75%{
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    100%{
+        font-style: normal;
+        color: #fff;
+    }
+}
+.main{
+    position: relative;
+    background-color: #030303;
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #151515;
+}
