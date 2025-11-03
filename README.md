@@ -135,7 +135,6 @@ Permission is hereby granted, free of charge, to any person obtaining a copy
 SOFTWARE.
 
 ---
-
 🌟 Show Your Support
 
 If you like this project, please give it a ⭐️
@@ -144,10 +143,14 @@ If you like this project, please give it a ⭐️
 📞 Connect With Me
 <div align="center">
 
+
+
+
+
+
+
+
 </div>
-
----
-
 🙏 Acknowledgments
 
 🎨 Design inspiration: Modern Portfolio Trends
@@ -158,8 +161,6 @@ If you like this project, please give it a ⭐️
 
 ⚡ Animations: GSAP, Locomotive Scroll
 
----
-
 <div align="center">
 
 🎓 Ayush Raghuwanshi
@@ -167,15 +168,19 @@ Computer Science & Engineering (IoT)
 
 Made with ❤️ and ☕ by Ayush Raghuwanshi
 
+
+
+
 "Code is like humor. When you have to explain it, it's bad." — Cory House
 
 </div>
 🎯 Project Status
 
+
+
+
+
+
 Last updated: November 2025
 
 <div align="center"> ⭐ Don't forget to star this repo if you found it helpful! ⭐ </div> ```
-
-
-
-
