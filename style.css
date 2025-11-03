@@ -567,3 +567,437 @@ body {
   z-index: 999;
   position: relative;
 }
+
+/* Add this responsive CSS at the end of your existing code */
+
+/* Tablet Devices (768px - 1024px) */
+@media (max-width: 1024px) {
+    #crsr {
+        height: 4vw;
+        width: 4vw;
+    }
+    
+    #nav-part2 h4 {
+        font-size: 1.8vw;
+    }
+    
+    .hero {
+        width: 85%;
+        margin-left: 15%;
+    }
+    
+    .hero h1, .hero h2 {
+        font-size: 5.5vw;
+        line-height: 5.5vw;
+    }
+    
+    #video-container {
+        width: 85vw;
+        left: 15vw;
+    }
+    
+    #page3 h1, #page4-content h1 {
+        font-size: 4.5vw;
+        margin-left: 15%;
+    }
+    
+    #page3 .underline {
+        margin-left: 15vw;
+    }
+    
+    .image-div {
+        height: 45vw;
+        width: 32vw;
+    }
+    
+    .image-div:nth-child(1) {
+        height: 35vw;
+        width: 25vw;
+    }
+    
+    .page3-circle1, .page3-circle2 {
+        height: 28vw;
+        width: 28vw;
+    }
+    
+    #page4-content {
+        width: 85vw;
+        margin-left: 15%;
+    }
+    
+    #page4-content > p {
+        width: 70%;
+        font-size: 1.8vw;
+        line-height: 2.2vw;
+    }
+    
+    #page4-flex img {
+        height: 50vw;
+        width: 45vw;
+    }
+    
+    #page4-flex p {
+        font-size: 1.4vw;
+        width: 35%;
+    }
+    
+    #page4-blue-div {
+        width: 45vw;
+        margin-left: 20vw;
+    }
+    
+    .blue-div-elem h4 {
+        font-size: 1.6vw;
+    }
+    
+    .blue-div-elem p {
+        font-size: 1.1vw;
+    }
+    
+    .elem h1, .elem2 h1 {
+        font-size: 6vw;
+    }
+    
+    #footer {
+        padding-left: 15vw;
+    }
+    
+    #footer h1 {
+        font-size: 5vw;
+        width: 80vw;
+    }
+    
+    #footer-div h6 {
+        font-size: 1.2vw;
+    }
+    
+    #footer h5 {
+        font-size: 1.5vw;
+    }
+    
+    #footer > h5 {
+        font-size: 1.1vw;
+    }
+}
+
+/* Mobile Devices (480px - 767px) */
+@media (max-width: 767px) {
+    #crsr {
+        display: none; /* Hide custom cursor on mobile */
+    }
+    
+    #nav {
+        padding: 4vw 5vw !important;
+    }
+    
+    #nav-part2 {
+        gap: 5vw;
+    }
+    
+    #nav-part2 h4 {
+        font-size: 2.5vw;
+    }
+    
+    .hero {
+        width: 90%;
+        margin-left: 5% !important;
+    }
+    
+    .hero:nth-child(2) {
+        margin-top: 5vh !important;
+    }
+    
+    .hero h1, .hero h2 {
+        font-size: 8vw;
+        line-height: 8vw;
+    }
+    
+    #video-container {
+        width: 90vw;
+        left: 5vw;
+        height: 40vh;
+    }
+    
+    #video-cursor {
+        height: 12vw;
+        width: 12vw;
+    }
+    
+    #video-cursor i {
+        font-size: 4vw;
+    }
+    
+    #page3 {
+        padding: 5vh 5vw;
+    }
+    
+    #page3 h1 {
+        font-size: 7vw;
+        margin-left: 5%;
+    }
+    
+    #page3 .underline {
+        margin-left: 5vw;
+        width: 90%;
+    }
+    
+    #image-div-container {
+        justify-content: center;
+        gap: 4vw;
+    }
+    
+    .image-div {
+        height: 60vw;
+        width: 45vw;
+    }
+    
+    .image-div:nth-child(1) {
+        height: 50vw;
+        width: 40vw;
+    }
+    
+    .page3-circle1, .page3-circle2 {
+        height: 35vw;
+        width: 35vw;
+        margin: 5vh auto;
+    }
+    
+    .page3-circle1 {
+        margin-left: auto;
+    }
+    
+    .circle-in p, .image-in p {
+        font-size: 2vw;
+    }
+    
+    #page4 {
+        padding: 5vh 5vw;
+    }
+    
+    #page4-content {
+        width: 90vw;
+        margin-left: 5%;
+    }
+    
+    #page4-content h1 {
+        font-size: 7vw;
+    }
+    
+    #page4-content > p {
+        width: 100%;
+        font-size: 3vw;
+        line-height: 4vw;
+    }
+    
+    #page4-flex {
+        flex-direction: column;
+    }
+    
+    #page4-flex img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 4vw;
+    }
+    
+    #page4-flex p {
+        width: 100%;
+        font-size: 3vw;
+    }
+    
+    #page4-blue-div {
+        width: 90vw;
+        margin-left: 0;
+        margin-top: 5vh;
+        padding: 5vw;
+    }
+    
+    .blue-div-elem {
+        flex-direction: column;
+        gap: 2vw;
+    }
+    
+    .blue-div-elem h4, .blue-div-elem p {
+        width: 100%;
+        font-size: 2.5vw;
+    }
+    
+    .blue-div-elem p {
+        font-size: 2.2vw;
+    }
+    
+    .elem h1, .elem2 h1 {
+        font-size: 8vw;
+    }
+    
+    #footer {
+        padding: 5vh 5vw;
+        min-height: auto;
+    }
+    
+    #footer h1 {
+        font-size: 8vw;
+        width: 100%;
+    }
+    
+    #footer-div {
+        flex-direction: column;
+        gap: 5vw;
+        padding-right: 0;
+    }
+    
+    .box {
+        width: 100%;
+    }
+    
+    #footer-div h6 {
+        font-size: 3vw;
+    }
+    
+    #footer h5 {
+        font-size: 4vw;
+    }
+    
+    #footer > h5 {
+        font-size: 2.5vw;
+    }
+}
+
+/* Small Mobile Devices (below 480px) */
+@media (max-width: 480px) {
+    #nav-part2 h4 {
+        font-size: 3vw;
+    }
+    
+    .hero h1, .hero h2 {
+        font-size: 10vw;
+        line-height: 10vw;
+    }
+    
+    #video-container {
+        height: 30vh;
+    }
+    
+    #page3 h1, #page4-content h1 {
+        font-size: 9vw;
+    }
+    
+    .image-div {
+        height: 80vw;
+        width: 90vw;
+    }
+    
+    .image-div:nth-child(1) {
+        height: 70vw;
+        width: 90vw;
+    }
+    
+    .page3-circle1, .page3-circle2 {
+        height: 50vw;
+        width: 50vw;
+    }
+    
+    .circle-in p, .image-in p {
+        font-size: 3vw;
+        padding: 4vw;
+    }
+    
+    #page4-content > p {
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+    
+    #page4-flex p {
+        font-size: 4vw;
+    }
+    
+    .blue-div-elem h4 {
+        font-size: 4vw;
+    }
+    
+    .blue-div-elem p {
+        font-size: 3.5vw;
+    }
+    
+    .elem h1, .elem2 h1 {
+        font-size: 10vw;
+    }
+    
+    #footer h1 {
+        font-size: 10vw;
+    }
+    
+    #footer-div h6 {
+        font-size: 4vw;
+    }
+    
+    #footer h5 {
+        font-size: 5vw;
+    }
+    
+    #footer > h5 {
+        font-size: 3vw;
+    }
+}
+
+/* Large Desktop Screens (above 1440px) */
+@media (min-width: 1440px) {
+    .hero h1, .hero h2 {
+        font-size: 5.5vw;
+        line-height: 5.5vw;
+    }
+    
+    #page3 h1, #page4-content h1 {
+        font-size: 4vw;
+    }
+    
+    #page4-content > p {
+        font-size: 1.1vw;
+        line-height: 2vw;
+    }
+    
+    .blue-div-elem h4 {
+        font-size: 1.1vw;
+    }
+    
+    .blue-div-elem p {
+        font-size: 0.9vw;
+    }
+}
+
+/* Orientation specific styles */
+@media (max-width: 767px) and (orientation: landscape) {
+    .hero h1, .hero h2 {
+        font-size: 6vw;
+        line-height: 6vw;
+    }
+    
+    #video-container {
+        height: 50vh;
+    }
+    
+    #page3, #page4 {
+        min-height: 120vh;
+    }
+}
+
+/* High DPI screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    /* Ensure crisp rendering on retina displays */
+    .hero h2:hover {
+        -webkit-text-stroke: 1.5px #fff;
+    }
+}
+
+/* Print styles */
+@media print {
+    #loader, #crsr, #video-cursor {
+        display: none !important;
+    }
+    
+    * {
+        color: #000 !important;
+        background: #fff !important;
+    }
+}
+
