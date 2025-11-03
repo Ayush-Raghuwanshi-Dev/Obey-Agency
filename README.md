@@ -1,4 +1,4 @@
-# 🎨 Modern Portfolio Website  
+# 🎨 OBEY AGENCY
 
 <div align="center">
 
@@ -22,7 +22,7 @@ A stunning, responsive portfolio website with smooth animations and modern desig
 
 <div align="center">
 
-![Preview](https://via.placeholder.com/800x400/151515/FFFFFF?text=Your+Portfolio+Screenshot+Here)  
+![Preview](./assets/demo_img.jpg)  
 _Replace this with your actual project screenshot._
 
 </div>
