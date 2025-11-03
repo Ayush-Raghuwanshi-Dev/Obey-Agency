@@ -22,8 +22,7 @@ A stunning, responsive portfolio website with smooth animations and modern desig
 
 <div align="center">
 
-![Preview](./assets/demo_img.jpg)  
-_Replace this with your actual project screenshot._
+![Preview](./assets/demo_img.png)  
 
 </div>
 
