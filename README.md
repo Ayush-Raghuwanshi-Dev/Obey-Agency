@@ -140,17 +140,11 @@ SOFTWARE.
 If you like this project, please give it a ⭐️
 
 <div align="center"> ⭐️ **Star this repository!** ⭐️ </div>
-📞 Connect With Me
-<div align="center">
-
-
-
-
-
-
-
-
+<div align="center"
 </div>
+    
+    ---
+
 🙏 Acknowledgments
 
 🎨 Design inspiration: Modern Portfolio Trends
@@ -161,6 +155,8 @@ If you like this project, please give it a ⭐️
 
 ⚡ Animations: GSAP, Locomotive Scroll
 
+---
+
 <div align="center">
 
 🎓 Ayush Raghuwanshi
@@ -168,18 +164,12 @@ Computer Science & Engineering (IoT)
 
 Made with ❤️ and ☕ by Ayush Raghuwanshi
 
-
-
-
 "Code is like humor. When you have to explain it, it's bad." — Cory House
+
+---
 
 </div>
 🎯 Project Status
-
-
-
-
-
 
 Last updated: November 2025
 
